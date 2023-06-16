@@ -10,3 +10,19 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.screen-loader {
+  /* The image used */
+  background: url("../images/startup_logo.png") no-repeat center center;
+
+  /* Full height */
+  height: 10%; 
+
+  background-size: contain;
+  vertical-align: middle;
+  margin-top: 90%;
+}
+
+.img-hide{
+  display: none;
+}
