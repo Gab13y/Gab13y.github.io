@@ -4,11 +4,19 @@
 
   /* Full height */
   height: 100%; 
+  width: 90%;
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  align-content: center;
+  background-size: contain:
+  
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .screen-loader {
