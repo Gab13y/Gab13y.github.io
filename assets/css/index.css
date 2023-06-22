@@ -17,3 +17,25 @@
 .img-hide{
   display: none;
 }
+
+#screen1{
+  background-image: url("../images/Screen1_1.png");
+}
+
+#welcome_greeting{
+  /* border-style: solid; */
+  margin-top: 8vh;
+}
+
+#welcome_greeting label{
+  font-family: 'axiforma-bold';
+  font-size: 9pt;
+  text-align: center;
+  line-height: 1vh;
+}
+
+#welcome_greeting span{
+  font-family: 'axiforma-regular';
+  font-size: 5pt;
+  text-align: center;
+}

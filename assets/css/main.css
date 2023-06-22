@@ -2,6 +2,10 @@
   font-family: 'axiforma-bold';
   src: url(../fonts/Axiforma\ Bold.otf);
 }
+@font-face {
+  font-family: 'axiforma-regular';
+  src: url(../fonts/FontsFree-Net-sddd4.ttf);
+}
 
 body, html {
   height: 100%;
