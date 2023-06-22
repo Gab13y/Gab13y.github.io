@@ -1,5 +1,27 @@
+@font-face {
+  font-family: 'axiforma-bold';
+  src: url(../fonts/Axiforma\ Bold.otf);
+}
+
 body, html {
   height: 100%;
   margin: 0;
   background-color: #fff !important;
+}
+
+.main_bg { 
+  /* Full height */
+  height: 100%; 
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
