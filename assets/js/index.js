@@ -16,7 +16,8 @@ function redirectToDashboard1(){
         clearInterval(bgInterval);
         $('#welcome_greeting label').append(getRandomGreetingMessage() + ', Gabby');
         lastLogin = getLastLogin();
-        $('#welcome_greeting span').append(getLastLogin());
+        $('#welcome_greeting span').append(lastLogin);
+        $("body").css("background-color", "#f3f4f9");
     }, 2000);
 }
 function getRandomGreetingMessage() {
