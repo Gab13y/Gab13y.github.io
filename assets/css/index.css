@@ -25,18 +25,19 @@
 
 #welcome_greeting{
   margin-top: 8vh;
+  color: #08236a !important;
 }
 
 #welcome_greeting label{
   font-family: 'axiforma-bold';
-  font-size: 1em;
+  font-size: 45px;
   text-align: center;
-  line-height: 1vh;
+  line-height: 1.5vh;
 }
 
 #welcome_greeting span{
   font-family: 'axiforma-regular';
-  font-size: 0.5em;
+  font-size: 18px;
   text-align: center; 
 }
 
