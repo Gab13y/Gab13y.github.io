@@ -29,13 +29,13 @@
 
 #welcome_greeting label{
   font-family: 'axiforma-bold';
-  font-size: 12pt;
+  font-size: 1em;
   text-align: center;
   line-height: 1vh;
 }
 
 #welcome_greeting span{
   font-family: 'axiforma-regular';
-  font-size: 7pt;
+  font-size: 0.5em;
   text-align: center; 
 }
