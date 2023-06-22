@@ -3,6 +3,7 @@ var lastLogin = '';
 var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
 $(document).ready(function(){
     var slInterval = setInterval(() => {
+        $("body").css("background-color", "#fff");
         $('#sl').remove();
         $('#bg').removeClass('img-hide');
         clearInterval(slInterval);
