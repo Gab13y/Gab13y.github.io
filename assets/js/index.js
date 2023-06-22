@@ -4,7 +4,6 @@ var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'O
 $(document).ready(function(){
     var slInterval = setInterval(() => {
         $("body").css("background-color", "#fff");
-        $('#sl').remove();
         $('#bg').removeClass('img-hide');
         clearInterval(slInterval);
         redirectToDashboard1();
