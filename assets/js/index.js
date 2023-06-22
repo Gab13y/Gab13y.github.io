@@ -33,4 +33,4 @@ function getLastLogin() {
     var time = dt.getHours() + ":" + dt.getMinutes() + " " + formatAMPM(dt.getHours());
     var _date = dt.getDate() + " "  + months[dt.getMonth()] + " "  + dt.getFullYear();
     return _date + ' ' + time;
-}
+} 
