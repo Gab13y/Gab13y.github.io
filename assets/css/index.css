@@ -21,7 +21,7 @@
 
 .screen-loader {
   /* The image used */
-  background: url("../images/startup_logo.png") no-repeat center center;
+  background: url("../images/ic_launcher.png") no-repeat center center;
 
   /* Full height */
   height: 10%; 
