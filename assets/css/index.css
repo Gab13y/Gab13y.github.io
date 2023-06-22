@@ -58,3 +58,16 @@
 .div-border{
   border-style: solid;
 }
+
+.div-panel1-adjustment{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 10%;
+  margin-left: 9%;
+}
+.div-panel2_3_4-adjustment{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 10%;
+  margin-left: 14%;
+}
