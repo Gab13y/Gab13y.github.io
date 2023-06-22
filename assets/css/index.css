@@ -22,6 +22,9 @@
 #screen1{
   background-image: url("../images/Screen1_1.png");
 }
+#screen2{
+  background-image: url("../images/Screen2.png");
+}
 #login-password1{
   background-image: url("../images/login-password1_1.png");
 }
@@ -30,27 +33,33 @@
   background-image: url("../images/login-password2.png");
 }
 
+#my-account-details1{
+  background-image: url("../images/MyAccount0.jpg");
+}
 
 #welcome_greeting{
-  margin-top: 10vh;
   color: #08236a !important;
 }
 
-#welcome_greeting label{
+.welcome_greeting, .loading_accounts{
+  margin-top: 10vh;
+}
+
+.welcome_greeting label, .loading_accounts label{
   font-family: 'axiforma-bold';
   font-size: 30px;
   text-align: center;
   line-height: 1.5vh;
 }
 
-#welcome_greeting span{
+.welcome_greeting span{
   font-family: 'axiforma-regular';
   font-size: 8px;
   text-align: center; 
 }
 
 #panel1{
-  margin-top: 3vh;
+  margin-top: 1.5vh;
   height: 10%;
   padding-top: 1%;
 }
@@ -69,7 +78,7 @@
 }
 
 #panel5{
-  margin-top: 77vh;
+  margin-top: 65vh;
   height: 4%;
 }
 #panel6{
@@ -77,7 +86,7 @@
   height: 8%;
 }
 #panel7{
-  margin-top: 70vh;
+  margin-top: 58vh;
   height: 4%;
 }
 #panel8{
@@ -151,14 +160,18 @@
   height: 4.5%;
 }
 #button-login-password{
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 90%;
   background-color: #e6e6e6;
   text-align: center;
   font-family: 'axiforma-bold';
   vertical-align: middle;
-  line-height: 4;
-  font-size: 24px;
+  line-height: 0;
+  font-size: 20px;
   color: #9c9c9c;
+  height: 50%;
+  padding: 3%;
+}
+#panel8 span{
+  font-size: 10px;
 }
