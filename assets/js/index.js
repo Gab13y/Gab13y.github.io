@@ -15,8 +15,13 @@ $(document).ready(function(){
         if(savedSessionPassword === ''){
             loginPassword1();
         } else{
+            $('#my-account-details1').removeClass('my-account-list1');
+            $('#my-account-details1').addClass('my-account-list0');
             viewAccountList();
         }
+    });
+    $('.offlog').on('click',function(){
+        loginPassword1();
     });
     $('#button-login-password').on('click', function(){
         if($('#password').val() !== currentPassword){
@@ -58,11 +63,44 @@ $(document).ready(function(){
         $('#panel8 span').html('');
         $('#password').focus();
     });
+    $('#panel14').on('click',function(){
+        $('#my-account-details2').addClass('my-account-list2');
+        $('#my-account-details2').removeClass('my-account-list3');
+        viewAccount();
+    });
+    $('#panel15').on('click', function(){
+        $('#my-account-details2').addClass('img-hide');
+        $('#my-account-details1').addClass('my-account-list0');
+        $('#my-account-details1').removeClass('my-account-list1');
+        viewAccountList();
+    });
+    $('.home').on('click', function(){
+        $('.non-home').addClass('img-hide');
+        $('#screen2').removeClass('img-hide');
+    });
 });
 
+function viewAccount(){
+    $('#my-account-details1').addClass('img-hide');
+    $('#my-account-details2').removeClass('img-hide');
+    $('.loading_accounts2').removeClass('img-hide');
+    var ai = setInterval(() => {        
+        $('#my-account-details2').removeClass('my-account-list2');
+        $('#my-account-details2').addClass('my-account-list3');
+        $('.loading_accounts2').addClass('img-hide');
+        clearInterval(ai);
+    }, getRandomIntervalTime());
+}
 function viewAccountList(){    
     $('#my-account-details1').removeClass('img-hide');
     $('#screen2').addClass('img-hide');
+    $('.loading_accounts').removeClass('img-hide');
+    var ali = setInterval(() => {        
+        $('#my-account-details1').removeClass('my-account-list0');
+        $('#my-account-details1').addClass('my-account-list1');
+        $('.loading_accounts').addClass('img-hide');
+        clearInterval(ali);
+    }, getRandomIntervalTime());
 }
 function loginPassword1(){    
     $('#screen1').addClass('img-hide');
@@ -80,9 +118,14 @@ function redirectToDashboard1(){
     }, 2000);
 }
 function getRandomGreetingMessage() {
-    min = 0
-    max = greeting_messages.length - 1
+    var min = 0
+    var max = greeting_messages.length - 1
     return greeting_messages[Math.floor(Math.random() * (max - min + 1)) + min];
+}
+function getRandomIntervalTime(){
+    var min = 2000;
+    var max = 7000;
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 function formatAMPM(hourtime) {
   var ampm = hourtime >= 12 ? 'PM' : 'AM';
