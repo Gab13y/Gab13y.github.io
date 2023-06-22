@@ -30,14 +30,14 @@
 
 #welcome_greeting label{
   font-family: 'axiforma-bold';
-  font-size: 45px;
+  font-size: 30px;
   text-align: center;
   line-height: 1.5vh;
 }
 
 #welcome_greeting span{
   font-family: 'axiforma-regular';
-  font-size: 18px;
+  font-size: 8px;
   text-align: center; 
 }
 
