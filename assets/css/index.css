@@ -33,19 +33,29 @@
   background-image: url("../images/login-password2.png");
 }
 
-#my-account-details1{
+.my-account-list0{
   background-image: url("../images/MyAccount0.jpg");
+}
+.my-account-list1{
+  background-image: url("../images/MyAccount1.jpg");
+}
+
+.my-account-list2{
+  background-image: url("../images/MyAccount2.png");
+}
+.my-account-list3{
+  background-image: url("../images/MyAccount3.png");
 }
 
 #welcome_greeting{
   color: #08236a !important;
 }
 
-.welcome_greeting, .loading_accounts{
+.welcome_greeting, .loading_accounts, .loading_accounts2{
   margin-top: 10vh;
 }
 
-.welcome_greeting label, .loading_accounts label{
+.welcome_greeting label, .loading_accounts label, .loading_accounts2 label{
   font-family: 'axiforma-bold';
   font-size: 30px;
   text-align: center;
@@ -58,21 +68,21 @@
   text-align: center; 
 }
 
-#panel1{
+#panel1, #panel10{
   margin-top: 1.5vh;
   height: 10%;
   padding-top: 1%;
 }
 
-#panel2{
+#panel2, #panel11{
   height: 10%;
 }
 
-#panel3{
+#panel3, #panel12{
   height: 10%;
 }
 
-#panel4{
+#panel4, #panel13{
   margin-top: 44vh;
   height: 10%;
 }
@@ -92,6 +102,26 @@
 #panel8{
   margin-top: 4vh;
   height: 6%;
+}
+#panel14{
+  margin-top: 11vh;
+  height: 8%;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#panel15{
+  margin-top: 1vh;
+  height: 3%;
+  width: 30%;
+}
+#panel16{
+  margin-top: 67vh;
+  height: 10%;
+}
+#panel17{
+  margin-top: 81vh;
+  height: 10%;
 }
 .div-panel6-adjustment1{
   width: 14%;
