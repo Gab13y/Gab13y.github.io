@@ -1,5 +1,6 @@
 #bg{
   background-image: url("../images/index_loading.jpg");
+  height: 100% !important;
 }
 
 .screen-loader {
@@ -23,7 +24,6 @@
 }
 
 #welcome_greeting{
-  /* border-style: solid; */
   margin-top: 8vh;
 }
 
@@ -38,4 +38,23 @@
   font-family: 'axiforma-regular';
   font-size: 0.5em;
   text-align: center; 
+}
+
+#panel1{
+  margin-top: 9%;
+  height: 10%;
+}
+
+#panel2{
+  margin-top: 0%;
+  height: 20%;
+}
+
+#panel3{
+  margin-top: 0%;
+  height: 10%;
+}
+
+.div-border{
+  border-style: solid;
 }
