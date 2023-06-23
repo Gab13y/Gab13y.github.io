@@ -51,8 +51,11 @@
   color: #08236a !important;
 }
 
-.welcome_greeting, .loading_accounts, .loading_accounts2{
+.welcome_greeting{
   margin-top: 8vh;
+}
+.loading_accounts, .loading_accounts2{
+  margin-top: 11vh;
 }
 
 .welcome_greeting label, .loading_accounts label, .loading_accounts2 label{
@@ -116,11 +119,11 @@
   width: 30%;
 }
 #panel16{
-  margin-top: 66vh;
+  margin-top: 66.5vh;
   height: 10%;
 }
 #panel17{
-  margin-top: 80vh;
+  margin-top: 80.5vh;
   height: 10%;
 }
 .div-panel6-adjustment1{
