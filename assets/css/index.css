@@ -207,3 +207,7 @@
   padding-left: 8%;
   margin-top: 1.5vh;
 }
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
