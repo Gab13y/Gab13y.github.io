@@ -182,7 +182,7 @@
   line-height: 5vh;
   background: transparent;
   border: none;
-  font-size: 28px;
+  font-size: 25px;
   --bs-focus-ring-color: none;
 }
 #panel9{  
@@ -203,5 +203,6 @@
   padding: 3%;
 }
 #panel8 span{
-  font-size: 15px;
+  font-size: 17px;
+  padding-left: 4%;
 }
