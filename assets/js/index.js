@@ -61,7 +61,10 @@ $(document).ready(function(){
         $('#button-login-password').prop('disabled', true);        
         $('#button-login-password').css('pointer-events', 'none');
         $('#panel8 span').html('');
-        $('#password').val('');
+        $('#password').val('');        
+        $('#button-login-password').css('pointer-events', 'none');
+        $('#button-login-password').css('background-color','#e6e6e6');
+        $('#button-login-password').css('color','#9c9c9c');
     });
     $('#panel14').on('click',function(){
         $('#my-account-details2').addClass('my-account-list2');
