@@ -47,7 +47,7 @@
   background-image: url("../images/MyAccount3.png");
 }
 
-#welcome_greeting{
+.welcome_greeting, .loading_accounts, .loading_accounts2{
   color: #08236a !important;
 }
 
