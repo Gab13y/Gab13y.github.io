@@ -29,3 +29,7 @@ body, html {
   margin-top: 3vh;
   display: block;
 } 
+
+.div-border{
+  border-style: none;
+}
