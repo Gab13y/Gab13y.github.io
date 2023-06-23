@@ -52,19 +52,19 @@
 }
 
 .welcome_greeting, .loading_accounts, .loading_accounts2{
-  margin-top: 10vh;
+  margin-top: 8vh;
 }
 
 .welcome_greeting label, .loading_accounts label, .loading_accounts2 label{
   font-family: 'axiforma-bold';
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   line-height: 1.5vh;
 }
 
 .welcome_greeting span{
   font-family: 'axiforma-regular';
-  font-size: 8px;
+  font-size: 12px;
   text-align: center; 
 }
 
@@ -88,7 +88,7 @@
 }
 
 #panel5{
-  margin-top: 65vh;
+  margin-top: 66vh;
   height: 4%;
 }
 #panel6{
@@ -96,7 +96,7 @@
   height: 8%;
 }
 #panel7{
-  margin-top: 58vh;
+  margin-top: 59vh;
   height: 4%;
 }
 #panel8{
@@ -104,23 +104,23 @@
   height: 6%;
 }
 #panel14{
-  margin-top: 11vh;
+  margin-top: 10vh;
   height: 8%;
   width: 98%;
   margin-left: auto;
   margin-right: auto;
 }
 #panel15{
-  margin-top: 1vh;
+  margin-top: 0.5vh;
   height: 3%;
   width: 30%;
 }
 #panel16{
-  margin-top: 67vh;
+  margin-top: 66vh;
   height: 10%;
 }
 #panel17{
-  margin-top: 81vh;
+  margin-top: 80vh;
   height: 10%;
 }
 .div-panel6-adjustment1{
@@ -182,7 +182,7 @@
   line-height: 5vh;
   background: transparent;
   border: none;
-  font-size: 40px;
+  font-size: 28px;
   --bs-focus-ring-color: none;
 }
 #panel9{  
@@ -203,5 +203,5 @@
   padding: 3%;
 }
 #panel8 span{
-  font-size: 10px;
+  font-size: 15px;
 }
