@@ -87,10 +87,12 @@ function viewAccount(){
     $('#my-account-details1').addClass('img-hide');
     $('#my-account-details2').removeClass('img-hide');
     $('.loading_accounts2').removeClass('img-hide');
+    $('#shade1').css('margin-top', '-15vh');
     var ai = setInterval(() => {        
         $('#my-account-details2').removeClass('my-account-list2');
         $('#my-account-details2').addClass('my-account-list3');
         $('.loading_accounts2').addClass('img-hide');
+        $('#shade1').css('margin-top', '-2vh');
         clearInterval(ai);
     }, getRandomIntervalTime());
 }
@@ -98,10 +100,12 @@ function viewAccountList(){
     $('#my-account-details1').removeClass('img-hide');
     $('#screen2').addClass('img-hide');
     $('.loading_accounts').removeClass('img-hide');
+    $('#shade1').css('margin-top', '-15vh');
     var ali = setInterval(() => {        
         $('#my-account-details1').removeClass('my-account-list0');
         $('#my-account-details1').addClass('my-account-list1');
         $('.loading_accounts').addClass('img-hide');
+        $('#shade1').css('margin-top', '-2vh');
         clearInterval(ali);
     }, getRandomIntervalTime());
 }
