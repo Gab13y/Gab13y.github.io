@@ -58,11 +58,12 @@
   margin-top: 11vh;
 }
 
-.welcome_greeting label, .loading_accounts label, .loading_accounts2 label{
+.welcome_greeting, label, .loading_accounts label, .loading_accounts2 label{
   font-family: 'axiforma-bold';
   font-size: 28px;
   text-align: center;
   line-height: 1.5vh;
+  color: #08236a !important;
 }
 
 .welcome_greeting span{
